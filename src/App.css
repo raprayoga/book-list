@@ -1,0 +1,8 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  margin-bottom: 100px;
+}
+
+.react-rater-star.is-active {
+  color: #fc6 !important;
+}
