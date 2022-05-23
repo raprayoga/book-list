@@ -2,7 +2,7 @@
   "name": "books-collection",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raprayoga.github.io/books-list/",
+  "homepage": "https://raprayoga.github.io/book-list/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
