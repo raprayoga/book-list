@@ -37,10 +37,15 @@ export default function FavoriteTemplate() {
 
   return (
     <div css={containerStyle}>
-      <BooksFavCardList 
+      {Object.keys(datas).length < 1 ? (
+        <h2>You don't have a favorite book yet</h2>
+      ) : (
+        <BooksFavCardList 
         datas={datas}
         isLoading={isLoading}
-      />
+        />
+      )
+      }
     </div>
   )
 }
